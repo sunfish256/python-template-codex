@@ -1,6 +1,6 @@
 {
     "recommendations": [
         "charliermarsh.ruff",
-        "usernamehw.errorlens",
+        "usernamehw.errorlens"
     ]
 }
