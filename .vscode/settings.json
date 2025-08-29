@@ -1,0 +1,37 @@
+{
+    "python.analysis.ignore": ["*"],
+    "editor.rulers": [120],
+    "ruff.lineLength": 120,
+    "ruff.lint.select": [
+        "A",  // built-in
+        "B",  // bugbear
+        "C90",  // complexity
+        "D",  // docstrings
+        "E",  // error
+        "F",  // pyflakes
+        "I",  // isort
+        "N",  // pep8-naming
+        "S",  // security
+        "W",  // warning
+    ],
+    "ruff.lint.ignore": [
+        "D100",  // Missing docstring in public module
+        "D104",  // Missing docstring in public package
+        "D105",  // Missing docstring in magic method
+        "D107",  // Missing docstring in __init__
+        "D205",  // 1 blank line required between summary line and description
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+}
